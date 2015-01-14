@@ -14,3 +14,4 @@ filetype plugin indent on
 set mouse=a
 set nu
 set cursorline
+set title
