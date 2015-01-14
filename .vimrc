@@ -13,4 +13,3 @@ filetype plugin indent on
 
 set mouse=a
 set nu
-set laststatus=2
