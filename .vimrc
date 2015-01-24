@@ -43,3 +43,5 @@ nmap <C-L> <C-W><C-L>
 nmap <C-H> <C-W><C-H>
 
 nmap <C-T> :TagbarToggle<CR>
+
+nmap <C-O> :NERDTreeToggle<CR>
