@@ -24,6 +24,8 @@ Plugin 'ctrlp.vim'
 
 Plugin 'majutsushi/tagbar'
 
+Plugin 'bling/vim-airline'
+
 call vundle#end()
 
 filetype plugin indent on
