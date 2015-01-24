@@ -22,6 +22,8 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'ctrlp.vim'
 
+Plugin 'majutsushi/tagbar'
+
 call vundle#end()
 
 filetype plugin indent on
