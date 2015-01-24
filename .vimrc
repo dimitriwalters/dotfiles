@@ -20,6 +20,8 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'scrooloose/nerdtree'
 
+Plugin 'ctrlp.vim'
+
 call vundle#end()
 
 filetype plugin indent on
