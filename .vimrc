@@ -35,6 +35,8 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'airblade/vim-gitgutter'
 
+Plugin 'godlygeek/tabular'
+
 call vundle#end()
 
 filetype plugin indent on
