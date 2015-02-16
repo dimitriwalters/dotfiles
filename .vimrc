@@ -3,6 +3,7 @@ set mouse=a
 set nu
 set cursorline
 set title
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 set term=xterm
 set t_Co=256
