@@ -40,6 +40,8 @@ Plugin 'godlygeek/tabular'
 
 Plugin 'plasticboy/vim-markdown'
 
+Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+
 call vundle#end()
 
 filetype plugin indent on
