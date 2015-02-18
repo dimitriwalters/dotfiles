@@ -46,6 +46,8 @@ Plugin 'plasticboy/vim-markdown'
 
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 
+Plugin 'ervandew/supertab'
+
 call vundle#end()
 
 filetype plugin indent on
