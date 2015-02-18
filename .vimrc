@@ -17,6 +17,8 @@ let &t_AF="\e[38;5;%dm"
 let g:gitgutter_sign_column_always = 1
 let g:gitgutter_realtime = 750
 
+let g:EasyGrepRecursive=1
+
 colorscheme smyck
 
 syntax on
