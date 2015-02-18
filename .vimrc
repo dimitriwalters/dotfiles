@@ -65,5 +65,3 @@ nmap <C-H> <C-W><C-H>
 nmap <C-T> :TagbarToggle<CR>
 
 nmap <C-O> :NERDTreeToggle<CR>
-
-nmap <C-D> :shell<CR>
