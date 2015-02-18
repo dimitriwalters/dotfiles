@@ -48,6 +48,8 @@ Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 
 Plugin 'ervandew/supertab'
 
+Plugin 'dkprice/vim-easygrep'
+
 call vundle#end()
 
 filetype plugin indent on
