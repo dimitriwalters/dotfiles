@@ -1,4 +1,7 @@
 set nocompatible
+
+let mapleader = ','
+
 set mouse=a
 set nu
 set cursorline
