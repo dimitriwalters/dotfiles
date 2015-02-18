@@ -4,7 +4,7 @@ set nu
 set cursorline
 set title
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-set pastetoggle=<C-F>
+set pastetoggle=<Leader>f
 set laststatus=2
 
 set term=xterm
@@ -62,6 +62,6 @@ nmap <C-K> <C-W><C-K>
 nmap <C-L> <C-W><C-L>
 nmap <C-H> <C-W><C-H>
 
-nmap <C-T> :TagbarToggle<CR>
+nmap <Leader>t :TagbarToggle<CR>
 
-nmap <C-O> :NERDTreeToggle<CR>
+nmap <Leader>o :NERDTreeToggle<CR>
