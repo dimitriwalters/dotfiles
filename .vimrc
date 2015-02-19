@@ -18,6 +18,9 @@ set mouse=a
 " Show line number
 set number
 
+" Show relative line number
+set relativenumber
+
 " Highlight row cursor is on
 set cursorline
 
