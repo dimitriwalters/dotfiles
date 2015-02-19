@@ -73,6 +73,9 @@ nmap <Leader>o :NERDTreeToggle<CR>
 " Open command history
 nmap ? q?i
 
+" Toggle use of relative line number
+nmap <Leader>n :set relativenumber!<CR>
+
 " ==== Vundle Setup ====
 
 set rtp+=~/.vim/bundle/Vundle.vim
