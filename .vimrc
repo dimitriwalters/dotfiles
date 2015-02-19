@@ -1,74 +1,115 @@
+" Don't lose features by making it compatible with Vi
 set nocompatible
 
+" ==== General Config ====
+
+" Convenient key for mapping
 let mapleader = ','
 
-set mouse=a
-set number
-set cursorline
-set title
-set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-set pastetoggle=<Leader>f
-set laststatus=2
-
-let g:gitgutter_sign_column_always = 1
-let g:gitgutter_realtime = 750
-
-let g:EasyGrepRecursive=1
-
-colorscheme smyck
-
+" Allow syntax highlighting
 syntax on
 
+" Use custom color scheme
+colorscheme smyck
+
+" Enable mouse use
+set mouse=a
+
+" Show line number
+set number
+
+" Highlight row cursor is on
+set cursorline
+
+" Use filename for title
+set title
+
+" Always show status line
+set laststatus=2
+
+" Use same background as editor for sign column 
 highlight clear SignColumn
+
+" Set 80 column mark
+if (exists('+colorcolumn'))
+    set colorcolumn=80
+    highlight ColorColumn ctermbg=9
+endif
+
+" ==== Indentation ====
+
+" Set existing tabs to 4 columns
+set tabstop=4
+
+" Use 4 spaces for a tab
+set softtabstop=4
+
+" Indent text 4 spaces
+set shiftwidth=4 
+
+" Use spaces for tabs
+set expandtab
+
+" ==== Mappings ====
+
+" Set paste mode
+set pastetoggle=<Leader>f
+
+" Move between splits easier
+nmap <C-J> <C-W><C-J>
+nmap <C-K> <C-W><C-K>
+nmap <C-L> <C-W><C-L>
+nmap <C-H> <C-W><C-H>
+
+" Open Tagbar
+nmap <Leader>t :TagbarToggle<CR>
+
+" Open NERDTree
+nmap <Leader>o :NERDTreeToggle<CR>
+
+" Open command history
+nmap ? q?i
+
+" ==== Vundle Setup ====
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-
 Plugin 'scrooloose/nerdtree'
-
 Plugin 'ctrlp.vim'
-
 Plugin 'majutsushi/tagbar'
-
 Plugin 'bling/vim-airline'
-
 Plugin 'tpope/vim-fugitive'
-
 Plugin 'airblade/vim-gitgutter'
-
 Plugin 'godlygeek/tabular'
-
 Plugin 'plasticboy/vim-markdown'
-
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
-
 Plugin 'ervandew/supertab'
-
 Plugin 'dkprice/vim-easygrep'
 
 call vundle#end()
 
 filetype plugin indent on
 
+" ==== NERDTree Config ====
+
+" Open NERDTree when Vim starts (not including with a file)
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+" Close Vim if NERDTree is only buffer open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-if (exists('+colorcolumn'))
-    set colorcolumn=80
-    highlight ColorColumn ctermbg=9
-endif
+" ==== GitGutter Config ====
 
-nmap <C-J> <C-W><C-J>
-nmap <C-K> <C-W><C-K>
-nmap <C-L> <C-W><C-L>
-nmap <C-H> <C-W><C-H>
+" Always show column sign
+let g:gitgutter_sign_column_always = 1
 
-nmap <Leader>t :TagbarToggle<CR>
+" Update gutter signs 750ms after typing stops
+let g:gitgutter_realtime = 750
 
-nmap <Leader>o :NERDTreeToggle<CR>
+" ==== EasyGrep Config ====
 
-nmap ? q?i
+" Search subdirectories too
+let g:EasyGrepRecursive=1
