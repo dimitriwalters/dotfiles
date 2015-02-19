@@ -3,7 +3,7 @@ set nocompatible
 let mapleader = ','
 
 set mouse=a
-set nu
+set number
 set cursorline
 set title
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
