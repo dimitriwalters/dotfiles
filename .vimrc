@@ -4,7 +4,7 @@ set nocompatible
 " ==== General Config ====
 
 " Convenient key for mapping
-let mapleader = ','
+let mapleader = "\<Space>"
 
 " Allow syntax highlighting
 syntax on
