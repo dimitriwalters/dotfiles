@@ -92,6 +92,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'ervandew/supertab'
 Plugin 'dkprice/vim-easygrep'
+Plugin 'terryma/vim-expand-region'
 
 call vundle#end()
 
