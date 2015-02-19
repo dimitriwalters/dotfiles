@@ -74,3 +74,5 @@ nmap <C-H> <C-W><C-H>
 nmap <Leader>t :TagbarToggle<CR>
 
 nmap <Leader>o :NERDTreeToggle<CR>
+
+nmap ? q?i
