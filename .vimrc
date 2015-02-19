@@ -10,10 +10,6 @@ set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set pastetoggle=<Leader>f
 set laststatus=2
 
-set term=xterm
-set t_Co=256
-let &t_AB="\e[48;5;%dm"
-let &t_AF="\e[38;5;%dm"
 let g:gitgutter_sign_column_always = 1
 let g:gitgutter_realtime = 750
 
