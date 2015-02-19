@@ -84,7 +84,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'ervandew/supertab'
 Plugin 'dkprice/vim-easygrep'
 
