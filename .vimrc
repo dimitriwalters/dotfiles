@@ -76,6 +76,12 @@ nmap <Leader>n :set relativenumber!<CR>
 " Set paste mode
 nmap <Leader>f :set paste!<CR>
 
+" Expand region selection
+vmap v <Plug>(expand_region_expand)
+
+" Shrink region selection
+vmap <C-v> <Plug>(expand_region_shrink)
+
 " ==== Vundle Setup ====
 
 set rtp+=~/.vim/bundle/Vundle.vim
