@@ -74,7 +74,7 @@ nmap <Leader>h q:i
 nmap <Leader>n :set relativenumber!<CR>
 
 " Set paste mode
-nmap <Leader>f :set paste!<CR>
+nmap <Leader>p :set paste!<CR>
 
 " Quit
 nmap <Leader>q :q<CR>
