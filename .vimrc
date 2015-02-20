@@ -80,7 +80,7 @@ nmap <Leader>p :set paste!<CR>
 nmap <Leader>q :q<CR>
 
 " Save
-nmap <Leader>s :w<CR>
+nmap <Leader>w :w<CR>
 
 " Expand region selection
 vmap v <Plug>(expand_region_expand)
