@@ -79,6 +79,9 @@ nmap <Leader>f :set paste!<CR>
 " Quit
 nmap <Leader>q :q<CR>
 
+" Save
+nmap <Leader>s :w<CR>
+
 " Expand region selection
 vmap v <Plug>(expand_region_expand)
 
