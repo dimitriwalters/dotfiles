@@ -55,9 +55,6 @@ set expandtab
 
 " ==== Mappings ====
 
-" Set paste mode
-set pastetoggle=<Leader>f
-
 " Move between splits easier
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
@@ -75,6 +72,9 @@ nmap <Leader>q q:i
 
 " Toggle use of relative line number
 nmap <Leader>n :set relativenumber!<CR>
+
+" Set paste mode
+nmap <Leader>f :set paste!<CR>
 
 " ==== Vundle Setup ====
 
