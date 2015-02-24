@@ -70,8 +70,11 @@ nmap <Leader>o :NERDTreeToggle<CR>
 " Open command history
 nmap <Leader>h q:i
 
-" Toggle use of relative line number
-nmap <Leader>n :set relativenumber!<CR>
+" Use relative line numbers
+nmap <Leader>r :set relativenumber<CR>
+
+" Use normal line numbers
+nmap <Leader>n :set relativenumber!<CR>:set number<CR>
 
 " Set paste mode
 nmap <Leader>p :set paste!<CR>
