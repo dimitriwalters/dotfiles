@@ -30,12 +30,6 @@ set laststatus=2
 " Use same background as editor for sign column 
 highlight clear SignColumn
 
-" Set 80 column mark
-if (exists('+colorcolumn'))
-    set colorcolumn=80
-    highlight ColorColumn ctermbg=9
-endif
-
 " ==== Indentation ====
 
 " Set existing tabs to 4 columns
@@ -81,6 +75,12 @@ nmap <Leader>q :q<CR>
 
 " Save
 nmap <Leader>w :w<CR>
+
+" Set 80 column mark
+nmap <Leader>[ :set colorcolumn=80<CR>
+
+" Unset 80 column mark
+nmap <Leader>] :set colorcolumn=<CR>
 
 " Expand region selection
 vmap v <Plug>(expand_region_expand)
