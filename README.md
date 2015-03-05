@@ -7,8 +7,4 @@ Vundle must be set up first. You can do so by running this command:
 
 To install the vundle plugins, you must run this command:
 
-`vim +PluginInstall +qall`
-
-or from vim:
-
-`:PluginInstall`
+`vim +PluginInstall +qall` or from vim `:PluginInstall`
