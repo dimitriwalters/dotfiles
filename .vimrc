@@ -15,6 +15,7 @@ Plug 'ervandew/supertab'
 Plug 'dkprice/vim-easygrep'
 Plug 'terryma/vim-expand-region'
 Plug 'Shougo/neocomplcache.vim'
+Plug 'fatih/vim-go'
 
 call plug#end()
 
