@@ -146,3 +146,11 @@ let g:ctrlp_user_command = [
 
 " Use when vim starts
 let g:neocomplcache_enable_at_startup = 1
+
+" ==== Vim Go Config ====
+
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
