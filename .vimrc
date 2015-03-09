@@ -30,6 +30,9 @@ set laststatus=2
 " Use same background as editor for sign column 
 highlight clear SignColumn
 
+" Use bash as shell (needed to fix bug in fish-shell)
+set shell=/bin/bash
+
 " ==== Indentation ====
 
 " Set existing tabs to 4 columns
