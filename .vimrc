@@ -1,7 +1,27 @@
-" Don't lose features by making it compatible with Vi
-set nocompatible
+" ==== Vim-Plug Setup ====
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'gmarik/Vundle.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'kien/ctrlp.vim'
+Plug 'majutsushi/tagbar'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'ervandew/supertab'
+Plug 'dkprice/vim-easygrep'
+Plug 'terryma/vim-expand-region'
+Plug 'Shougo/neocomplcache.vim'
+
+call plug#end()
 
 " ==== General Config ====
+
+" Don't lose features by making it compatible with Vi
+set nocompatible
 
 " Convenient key for mapping
 let mapleader = "\<Space>"
@@ -90,29 +110,6 @@ vmap v <Plug>(expand_region_expand)
 
 " Shrink region selection
 vmap <C-v> <Plug>(expand_region_shrink)
-
-" ==== Vundle Setup ====
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
-Plugin 'majutsushi/tagbar'
-Plugin 'bling/vim-airline'
-Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'ervandew/supertab'
-Plugin 'dkprice/vim-easygrep'
-Plugin 'terryma/vim-expand-region'
-Plugin 'Shougo/neocomplcache.vim'
-
-call vundle#end()
-
-filetype plugin indent on
 
 " ==== NERDTree Config ====
 
