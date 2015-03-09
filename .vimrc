@@ -149,6 +149,7 @@ let g:neocomplcache_enable_at_startup = 1
 
 " ==== Vim Go Config ====
 
+" Add additional syntax highlighting
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
