@@ -1,10 +1,16 @@
 # dotfiles
-My .vimrc and .vim directory.
 
-Vundle must be set up first. You can do so by running this command:
+The current .vimrc and .vim directory that I use to code with.
 
-`git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+## Install
 
-To install the vundle plugins, you must run this command:
+1. Copy `.vimrc` and `.vim` to root folder
+2. Install `vim-plug`:
 
-`vim +PluginInstall +qall` or from vim `:PluginInstall`
+  ```sh
+  curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  ```
+
+3. Run `:PlugInstall`
+4. Optional: For Go development, run `:GoInstallBinaries` (will install binaries in `$GOBIN` or `$GOPATH/bin`)
