@@ -4,7 +4,7 @@ The current .vimrc and .vim directory that I use to code with.
 
 ## Install
 
-1. Copy `.vimrc` and `.vim` to root folder
+1. Copy `.vimrc` and `.vim` to root directory
 2. Install `vim-plug`:
 
   ```sh
