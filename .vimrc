@@ -84,10 +84,10 @@ set expandtab
 " ==== Mappings ====
 
 " Move between splits easier
-nmap <C-J> <C-W><C-J>
-nmap <C-K> <C-W><C-K>
-nmap <C-L> <C-W><C-L>
-nmap <C-H> <C-W><C-H>
+nmap <Leader>j <C-W><C-J>
+nmap <Leader>k <C-W><C-K>
+nmap <Leader>l <C-W><C-L>
+nmap <Leader>h <C-W><C-H>
 
 " Open Tagbar
 nmap <Leader>t :TagbarToggle<CR>
