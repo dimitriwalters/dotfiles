@@ -96,7 +96,7 @@ nmap <Leader>t :TagbarToggle<CR>
 nmap <Leader>o :NERDTreeToggle<CR>
 
 " Open command history
-nmap <Leader>h q:i
+nmap <Leader>g q:i
 
 " Use relative line numbers
 nmap <Leader>r :set relativenumber<CR>
