@@ -104,9 +104,6 @@ nmap <Leader>r :set relativenumber<CR>
 " Use normal line numbers
 nmap <Leader>n :set relativenumber!<CR>:set number<CR>
 
-" Set paste mode
-nmap <Leader>p :set paste!<CR>
-
 " Quit
 nmap <Leader>q :q<CR>
 
