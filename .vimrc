@@ -122,6 +122,9 @@ vmap v <Plug>(expand_region_expand)
 " Shrink region selection
 vmap <C-v> <Plug>(expand_region_shrink)
 
+" Use CtrlP Plugin
+nmap <Leader>p <C-P>
+
 " ==== NERDTree Config ====
 
 " Open NERDTree when Vim starts (not including with a file)
