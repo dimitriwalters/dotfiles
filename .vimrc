@@ -126,6 +126,16 @@ vmap <C-v> <Plug>(expand_region_shrink)
 " Use CtrlP Plugin
 nmap <Leader>p <C-P>
 
+" Grep word under cursor
+nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+
+" Use ag
+nnoremap \ :Ag<SPACE>
+
+" Jump through search results
+nmap <silent> <RIGHT> :cnext<CR>
+nmap <silent> <LEFT> :cprev<CR>
+
 " ==== NERDTree Config ====
 
 " Open NERDTree when Vim starts (not including with a file)
@@ -158,3 +168,16 @@ let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+
+" ==== The Silver Searcher Config ====
+"
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  let g:ctrlp_use_caching = 0
+endif
