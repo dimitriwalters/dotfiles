@@ -136,12 +136,6 @@ nnoremap \ :Ag<SPACE>
 nmap <silent> <RIGHT> :cnext<CR>
 nmap <silent> <LEFT> :cprev<CR>
 
-" ==== NERDTree Config ====
-
-" Open NERDTree when Vim starts (not including with a file)
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
 " ==== GitGutter Config ====
 
 " Always show column sign
