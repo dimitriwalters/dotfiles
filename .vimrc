@@ -145,17 +145,6 @@ let g:gitgutter_realtime = 750
 " Search subdirectories too
 let g:EasyGrepRecursive=1
 
-" ==== CtrlP Config ====
-
-" Don't use caching
-let g:ctrlp_use_caching = 0
-
-" Use git to ignore files 
-let g:ctrlp_user_command = [
-    \ '.git', 'cd %s && git ls-files . -co --exclude-standard',
-    \ 'find %s -type'
-    \ ]
-
 " ==== Neo Compl Cache Config ====
 
 " Use when vim starts
