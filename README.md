@@ -12,5 +12,14 @@ The current .vimrc and .vim directory that I use to code with.
       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   ```
 
-3. Run `:PlugInstall`
-4. Optional: For Go development, run `:GoInstallBinaries` (will install binaries in `$GOBIN` or `$GOPATH/bin`)
+3. Install [ag](https://github.com/ggreer/the_silver_searcher), either from a package manager or from GitHub:
+
+  ```sh
+  $ git clone https://github.com/ggreer/the_silver_searcher ag
+  $ cd ag
+  $ ./build.sh
+  $ sudo make install
+  ```
+
+4. Run `:PlugInstall`
+5. Optional: For Go development, run `:GoInstallBinaries` (will install binaries in `$GOBIN` or `$GOPATH/bin`)
