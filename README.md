@@ -8,7 +8,7 @@ The current .vimrc and .vim directory that I use to code with.
 2. Install `vim-plug`:
 
   ```sh
-  curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   ```
 
