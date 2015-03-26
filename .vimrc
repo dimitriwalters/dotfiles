@@ -2,7 +2,6 @@
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'gmarik/Vundle.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'majutsushi/tagbar'
