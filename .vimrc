@@ -12,7 +12,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'ervandew/supertab'
-Plug 'dkprice/vim-easygrep'
 Plug 'terryma/vim-expand-region'
 Plug 'Shougo/neocomplcache.vim'
 Plug 'fatih/vim-go'
@@ -143,11 +142,6 @@ let g:gitgutter_sign_column_always = 1
 
 " Update gutter signs 750ms after typing stops
 let g:gitgutter_realtime = 750
-
-" ==== EasyGrep Config ====
-
-" Search subdirectories too
-let g:EasyGrepRecursive=1
 
 " ==== Neo Compl Cache Config ====
 
