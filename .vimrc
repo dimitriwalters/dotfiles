@@ -135,8 +135,8 @@ nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 nnoremap \ :Ag<SPACE>
 
 " Jump through search results
-nmap <silent> <RIGHT> :cnext<CR>
-nmap <silent> <LEFT> :cprev<CR>
+nmap <silent> <S-Right> :cnext<CR>
+nmap <silent> <S-Left> :cprev<CR>
 
 " Bubble lines 
 nnoremap <silent> <C-Up>   :move-2<CR>==
