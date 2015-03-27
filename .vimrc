@@ -82,6 +82,10 @@ set expandtab
 
 " ==== Mappings ====
 
+" Use ; instead of :
+noremap ; :
+noremap <M-;> ;
+
 " Move between splits easier
 nmap <Leader>j <C-W><C-J>
 nmap <Leader>k <C-W><C-K>
