@@ -144,6 +144,14 @@ nnoremap <silent> <C-Down> :move+<CR>==
 xnoremap <silent> <C-Up>   :move-2<CR>gv=gv
 xnoremap <silent> <C-Down> :move'>+<CR>gv=gv
 
+"Duplicate lines above and below
+inoremap <C-S-down> <esc>Ypk
+nnoremap <C-S-down> Ypk
+xnoremap <C-S-down> y`>pgv
+inoremap <C-S-up> <esc>YPj
+nnoremap <C-S-up> YPj
+xnoremap <C-S-up> y`<Pgv
+
 " ==== GitGutter Config ====
 
 " Always show column sign
