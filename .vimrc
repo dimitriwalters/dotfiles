@@ -15,6 +15,7 @@ Plug 'terryma/vim-expand-region'
 Plug 'Shougo/neocomplcache.vim'
 Plug 'fatih/vim-go'
 Plug 'rking/ag.vim'
+Plug 'briandoll/change-inside-surroundings.vim'
 
 call plug#end()
 
