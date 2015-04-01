@@ -16,6 +16,7 @@ Plug 'Shougo/neocomplcache.vim'
 Plug 'fatih/vim-go'
 Plug 'rking/ag.vim'
 Plug 'briandoll/change-inside-surroundings.vim'
+Plug 'gcmt/wildfire.vim'
 
 call plug#end()
 
@@ -152,6 +153,9 @@ xnoremap <C-S-down> y`>pgv
 inoremap <C-S-up> <esc>YPj
 nnoremap <C-S-up> YPj
 xnoremap <C-S-up> y`<Pgv
+
+" Smart selection of closest text object
+map <Leader>s <Plug>(wildfire-fuel)
 
 " ==== GitGutter Config ====
 
