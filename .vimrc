@@ -17,6 +17,7 @@ Plug 'fatih/vim-go'
 Plug 'rking/ag.vim'
 Plug 'briandoll/change-inside-surroundings.vim'
 Plug 'gcmt/wildfire.vim'
+Plug 'myusuf3/numbers.vim'
 
 call plug#end()
 
@@ -104,10 +105,7 @@ nmap <Leader>o :NERDTreeToggle<CR>
 nmap <Leader>g q:i
 
 " Use relative line numbers
-nmap <Leader>r :set relativenumber<CR>
-
-" Use normal line numbers
-nmap <Leader>n :set relativenumber!<CR>:set number<CR>
+nnoremap <Leader>n :NumbersToggle<CR>
 
 " Quit
 nmap <Leader>q :q<CR>
