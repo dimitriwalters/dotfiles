@@ -18,6 +18,7 @@ Plug 'rking/ag.vim'
 Plug 'briandoll/change-inside-surroundings.vim'
 Plug 'gcmt/wildfire.vim'
 Plug 'myusuf3/numbers.vim'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
