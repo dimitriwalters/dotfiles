@@ -105,7 +105,7 @@ nmap <Leader>o :NERDTreeToggle<CR>
 " Open command history
 nmap <Leader>g q:i
 
-" Use relative line numbers
+" Toggle relative and normal line numbers
 nnoremap <Leader>n :NumbersToggle<CR>
 autocmd VimEnter * NumbersToggle
 
