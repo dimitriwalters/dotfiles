@@ -18,6 +18,7 @@ Plug 'rking/ag.vim'
 Plug 'briandoll/change-inside-surroundings.vim'
 Plug 'gcmt/wildfire.vim'
 Plug 'tpope/vim-commentary'
+Plug 'dkprice/vim-easygrep'
 
 call plug#end()
 
@@ -136,6 +137,9 @@ nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 " Use ag
 nnoremap \ :Ag<SPACE>
+
+" Use easygrep replace
+nnoremap <Leader>\ :Replace<SPACE>
 
 " Jump through search results
 nmap <silent> <S-Right> :cnext<CR>
