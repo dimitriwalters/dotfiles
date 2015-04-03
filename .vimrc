@@ -107,6 +107,7 @@ nmap <Leader>g q:i
 
 " Use relative line numbers
 nnoremap <Leader>n :NumbersToggle<CR>
+autocmd VimEnter * NumbersToggle
 
 " Quit
 nmap <Leader>q :q<CR>
