@@ -20,6 +20,7 @@ Plug 'gcmt/wildfire.vim'
 Plug 'tpope/vim-commentary'
 Plug 'dkprice/vim-easygrep'
 Plug 'Raimondi/delimitMate'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
