@@ -164,6 +164,9 @@ xnoremap <C-S-up> y`<Pgv
 " Smart selection of closest text object
 map <Leader>s <Plug>(wildfire-fuel)
 
+" Toggle folding
+nmap <Leader>z za
+
 " ==== GitGutter Config ====
 
 " Always show column sign
