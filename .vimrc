@@ -158,6 +158,9 @@ nmap <Leader>z za
 nmap <Leader>c :.w !pbcopy<CR><CR>
 vmap <Leader>c :w !pbcopy<CR><CR>
 
+" Undo changes since last write
+nmap <Leader>u :earlier 1f<CR>
+
 " ==== GitGutter Config ====
 
 " Always show column sign
