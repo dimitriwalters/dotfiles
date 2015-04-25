@@ -167,6 +167,10 @@ map <Leader>s <Plug>(wildfire-fuel)
 " Toggle folding
 nmap <Leader>z za
 
+" Copy text to clipboard
+nmap <Leader>c :.w !pbcopy<CR><CR>
+vmap <Leader>c :w !pbcopy<CR><CR>
+
 " ==== GitGutter Config ====
 
 " Always show column sign
