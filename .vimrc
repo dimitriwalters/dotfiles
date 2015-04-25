@@ -21,6 +21,7 @@ Plug 'tpope/vim-commentary'
 Plug 'dkprice/vim-easygrep'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-surround'
+Plug 'ciaranm/detectindent'
 
 call plug#end()
 
@@ -71,20 +72,6 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
-
-" ==== Indentation ====
-
-" Set existing tabs to 4 columns
-set tabstop=4
-
-" Use 4 spaces for a tab
-set softtabstop=4
-
-" Indent text 4 spaces
-set shiftwidth=4 
-
-" Use spaces for tabs
-set expandtab
 
 " ==== Mappings ====
 
@@ -205,3 +192,7 @@ if executable('ag')
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
 endif
+
+" ==== Detect Indent Config ====
+
+autocmd BufRead * DetectIndent
