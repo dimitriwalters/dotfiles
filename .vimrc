@@ -60,6 +60,9 @@ highlight clear SignColumn
 " Use bash as shell (needed to fix bug in fish-shell)
 set shell=/bin/bash
 
+" Highlight last character when visually selecting text
+set selection=exclusive
+
 " ==== Auto Paste Mode ====
 
 let &t_SI .= "\<Esc>[?2004h"
