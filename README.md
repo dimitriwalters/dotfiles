@@ -1,6 +1,6 @@
 # dotfiles
 
-The current .vimrc and .vim that I use to code with.
+The current .vimrc and .vim that I code with.
 
 ## Install
 
