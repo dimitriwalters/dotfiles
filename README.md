@@ -22,4 +22,3 @@ The current .vimrc and .vim that I code with.
   ```
 
 4. Run `:PlugInstall`
-5. Optional: For Go development, run `:GoInstallBinaries` (will install binaries in `$GOBIN` or `$GOPATH/bin`)
