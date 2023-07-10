@@ -13,7 +13,6 @@ Plug 'plasticboy/vim-markdown'
 Plug 'ervandew/supertab'
 Plug 'terryma/vim-expand-region'
 Plug 'Shougo/neocomplcache.vim'
-Plug 'fatih/vim-go'
 Plug 'rking/ag.vim'
 Plug 'briandoll/change-inside-surroundings.vim'
 Plug 'gcmt/wildfire.vim'
@@ -176,15 +175,6 @@ let g:gitgutter_realtime = 750
 
 " Use when vim starts
 let g:neocomplcache_enable_at_startup = 1
-
-" ==== Vim Go Config ====
-
-" Add additional syntax highlighting
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_build_constraints = 1
 
 " ==== The Silver Searcher Config ====
 "
