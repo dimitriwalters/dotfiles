@@ -152,7 +152,7 @@ xnoremap <C-S-up> y`<Pgv
 map <Leader>s <Plug>(wildfire-fuel)
 
 " Toggle folding
-nmap <Leader>z za
+nmap <Leader>z :set nofoldenable<CR>
 
 " Copy text to clipboard
 nmap <Leader>c :.w !pbcopy<CR><CR>
