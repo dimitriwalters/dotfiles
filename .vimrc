@@ -12,7 +12,6 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'ervandew/supertab'
 Plug 'terryma/vim-expand-region'
-Plug 'rking/ag.vim'
 Plug 'briandoll/change-inside-surroundings.vim'
 Plug 'gcmt/wildfire.vim'
 Plug 'tpope/vim-commentary'
@@ -169,19 +168,6 @@ let g:gitgutter_sign_column_always = 1
 
 " Update gutter signs 750ms after typing stops
 let g:gitgutter_realtime = 750
-
-" ==== The Silver Searcher Config ====
-"
-if executable('ag')
-  " Use ag over grep
-  set grepprg=ag\ --nogroup\ --nocolor
-
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-
-  " ag is fast enough that CtrlP doesn't need to cache
-  let g:ctrlp_use_caching = 0
-endif
 
 " ==== Detect Indent Config ====
 

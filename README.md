@@ -11,14 +11,4 @@ The current .vimrc and .vim that I code with.
   $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   ```
-
-3. Install [ag](https://github.com/ggreer/the_silver_searcher), either from a package manager or from GitHub (it's okay if you don't install, only a few plugins use it):
-
-  ```sh
-  $ git clone https://github.com/ggreer/the_silver_searcher ag
-  $ cd ag
-  $ ./build.sh
-  $ sudo make install
-  ```
-
-4. Run `:PlugInstall`
+3. Run `:PlugInstall`
