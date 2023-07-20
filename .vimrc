@@ -12,7 +12,6 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'ervandew/supertab'
 Plug 'terryma/vim-expand-region'
-Plug 'Shougo/neocomplcache.vim'
 Plug 'rking/ag.vim'
 Plug 'briandoll/change-inside-surroundings.vim'
 Plug 'gcmt/wildfire.vim'
@@ -170,11 +169,6 @@ let g:gitgutter_sign_column_always = 1
 
 " Update gutter signs 750ms after typing stops
 let g:gitgutter_realtime = 750
-
-" ==== Neo Compl Cache Config ====
-
-" Use when vim starts
-let g:neocomplcache_enable_at_startup = 1
 
 " ==== The Silver Searcher Config ====
 "
